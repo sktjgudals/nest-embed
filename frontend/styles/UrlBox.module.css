@@ -1,0 +1,40 @@
+.box {
+  height: 41px;
+  border: solid 1px var(--gray-15);
+  border-radius: 10px;
+  background-color: var(--bg-white-05);
+  display: flex;
+  padding-left: 7px;
+  transition: all 0.2s ease;
+}
+.box:hover {
+  border-color: var(--white-00);
+  box-shadow: 0 1px 6px 0px var(--black-alpha-10);
+  background-color: var(--white-00);
+}
+.box:focus-within {
+  border-color: var(--white-00);
+  box-shadow: 0 1px 6px 0px var(--black-alpha-10);
+  background-color: var(--white-00);
+}
+.input {
+  width: 100%;
+  height: 41px;
+  color: var(--black-10);
+}
+.button {
+  width: 50px;
+  height: 41px;
+  padding: 7px;
+  color: #000000;
+}
+@media (max-width: 425px) {
+  .box {
+    display: none;
+    width: 0px;
+  }
+  .container {
+    width: 44px;
+    margin: 0;
+  }
+}

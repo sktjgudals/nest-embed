@@ -1,0 +1,39 @@
+.container {
+  margin-top: 16px;
+}
+.twittertitle {
+  font-size: 30px;
+  font-weight: bold;
+  color:turquoise;
+  margin-left: 20px;
+  display: flex;
+}
+.vimeotitle {
+  font-size: 30px;
+  font-weight: bold;
+  color:rgb(0, 0, 0);
+  margin-left: 20px;
+  display: flex;
+}
+.youtubetitle {
+  font-size: 30px;
+  font-weight: bold;
+  color:rgb(153, 22, 22);
+  margin-left: 20px;
+  display: flex;
+}
+
+.list_wrapper {
+     list-style-type: square;
+} 
+.item_wrapper {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  height: 90px;
+  background-color: var(--bg-white-00);
+  padding: 15px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  border: 1px solid var(--gray-15);
+}
